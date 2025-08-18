@@ -69,14 +69,14 @@ Crie e ative um ambiente virtual (recomendado):
 
 Bash
 
-2. python -m venv venv
+2. python -m venv .venv
 source venv/bin/activate  # No Windows: venv\Scripts\activate
 Instale as dependências:
 (Um arquivo requirements.txt deverá ser criado na pasta python/)
 
 Bash
 
-3. pip install -r python/requirements.txt
+3. pip install -r requirements.txt
 Execute o script principal:
 
 Bash
