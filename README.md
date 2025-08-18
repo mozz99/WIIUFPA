@@ -2,7 +2,7 @@
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow.svg)
-![Python Version](https://img.shields.io/badge/python-3.9%2B-blue.svg)
+![Python Version](https://img.shields.io/badge/python-3.13%2B-blue.svg)
 
 ## 📖 Resumo
 Este repositório contém os dados e códigos do trabalho de Análise de Canal para a Frequência de 3,5 GHz em Ambientes Fechados, que combina simulações computacionais e medições de campo. O projeto utiliza o software Wireless InSite (WI) para realizar uma análise de canal em pequena e larga escala, validando os resultados com uma campanha de medição realizada em um ambiente real.
