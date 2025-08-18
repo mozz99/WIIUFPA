@@ -117,7 +117,7 @@ Spacing (m):    10.0000
 Local Origin : X =      0.000, Y =      0.000
 Fit to Terrain: Yes
 Rotation (Deg.):    0.000
-Antenna: omnidirectional
+Antenna: tx
 Antenna Rotation Parameters (Deg.):
     About X :    0.000
     About Y :    0.000
@@ -182,7 +182,7 @@ Generate P2P Output: Yes
  Gain (dBi) =    3.000
  Autogain Setting: Off
  E-plane Beamwidths =    90.00000      ,   180.0000    
- Loss (dB) =  -10.000
+ Loss (dB) =   -2.000
  VSWR =    1.00
  Receiver Threshold (dBm) =   -100.0000    
  
@@ -199,6 +199,20 @@ Generate P2P Output: Yes
  Loss (dB) =    0.000
  VSWR =    1.00
  Receiver Threshold (dBm) =   -100.0000    
+ 
+ Antenna Number =           3
+ Status = In use    
+ Name = tx                                                                      
+ Type = Omnidirectional                                                         
+ Polarization = Vertical  
+ Waveform = sinusoid                                                                
+ Frequency (MHz): N/A
+ Gain (dBi) =    3.000
+ Autogain Setting: Off
+ E-plane Beamwidths =    90.00000      ,   180.0000    
+ Loss (dB) =   -3.000
+ VSWR =    1.00
+ Receiver Threshold (dBm) =   -250.0000    
 
  ================== WAVEFORMS ====================
  
@@ -649,10 +663,10 @@ Total Thickness (m) =    1.000
 
    Constructing 3-D Edges
        10 Percent Completed    0h  0m  0s
-       20 Percent Completed    0h  0m  0s
-       30 Percent Completed    0h  0m  1s
+       20 Percent Completed    0h  0m  1s
+       30 Percent Completed    0h  0m  2s
        40 Percent Completed    0h  0m  2s
-       50 Percent Completed    0h  0m  2s
+       50 Percent Completed    0h  0m  3s
 
  ==================== WARNING ====================
 
@@ -785,7 +799,7 @@ Total Thickness (m) =    1.000
  Unable to add a vertex to face          289
  This may have prevented the correct identification of edge
  along which this face meets face          194
-       60 Percent Completed    0h  0m  3s
+       60 Percent Completed    0h  0m  4s
 
  ==================== WARNING ====================
 
@@ -2658,7 +2672,7 @@ Total Thickness (m) =    1.000
  Unable to add a vertex to face          289
  This may have prevented the correct identification of edge
  along which this face meets face          446
-       70 Percent Completed    0h  0m  3s
+       70 Percent Completed    0h  0m  4s
 
  ==================== WARNING ====================
 
@@ -4315,7 +4329,7 @@ Total Thickness (m) =    1.000
  Unable to add a vertex to face          289
  This may have prevented the correct identification of edge
  along which this face meets face          968
-       80 Percent Completed    0h  0m  4s
+       80 Percent Completed    0h  0m  5s
 
  ==================== WARNING ====================
 
@@ -5498,7 +5512,7 @@ Total Thickness (m) =    1.000
  Unable to add a vertex to face          292
  This may have prevented the correct identification of edge
  along which this face meets face         1351
-       90 Percent Completed    0h  0m  4s
+       90 Percent Completed    0h  0m  5s
 
  ==================== WARNING ====================
 
@@ -6567,7 +6581,7 @@ Total Thickness (m) =    1.000
  Unable to add a vertex to face         1693
  This may have prevented the correct identification of edge
  along which this face meets face         1694
-      100 Percent Completed    0h  0m  5s
+      100 Percent Completed    0h  0m  6s
 
  ================== 3D GEOMETRY ==================
 
@@ -6678,7 +6692,7 @@ Total Thickness (m) =    1.000
      Ray tracing method: SBR                 
      Ray tracing acceleration: partitions
        Using half-space partitions
- Sum Rays with Phase: All                 
+ Sum Rays with Phase: None                
  Ground Reflections: No 
  Maximum Excess Path Loss =   -250.0000    
  Maximum number of interactions on ray path:            9
@@ -6698,9 +6712,9 @@ Total Thickness (m) =    1.000
  
     Percentage of transmission faces using ordering:    100.0000      %
     Percentage not using ordering:   0.0000000E+00  %
-     Available Memory (MB) =  4881.69
+     Available Memory (MB) =  3725.97
      Maximum Memory Used (MB) =    30.37
-     MaxPathMemory (MB) =  2390.73
+     MaxPathMemory (MB) =  1812.87
      ActualPathMemory (MB) =     1.93
      MaxDiffPathMemory (MB) =   700.00
      ActualDiffPathMemory (MB) =     0.53
@@ -6807,16 +6821,16 @@ Total Thickness (m) =    1.000
    Deallocating 3D Bounding Box Data
    Deallocation Successful (26)
    Allocation Successful (26)
-      10 Percent Completed    0h  0m 40s
-      20 Percent Completed    0h  1m 53s
-      30 Percent Completed    0h  3m  1s
-      40 Percent Completed    0h  4m  6s
-      50 Percent Completed    0h  5m  8s
-      60 Percent Completed    0h  6m  6s
-      70 Percent Completed    0h  7m  4s
-      80 Percent Completed    0h  7m 55s
-      90 Percent Completed    0h  8m 53s
-     100 Percent Completed    0h  9m 42s
+      10 Percent Completed    0h  0m 53s
+      20 Percent Completed    0h  2m  6s
+      30 Percent Completed    0h  3m 14s
+      40 Percent Completed    0h  4m 19s
+      50 Percent Completed    0h  5m 21s
+      60 Percent Completed    0h  6m 18s
+      70 Percent Completed    0h  7m 16s
+      80 Percent Completed    0h  8m  7s
+      90 Percent Completed    0h  9m  4s
+     100 Percent Completed    0h  9m 53s
 
   Number of incident diffracted paths =            0
 
@@ -6853,7 +6867,7 @@ Total Thickness (m) =    1.000
       50 Percent Completed    0h  0m  0s
       60 Percent Completed    0h  0m  0s
       70 Percent Completed    0h  0m  0s
-      80 Percent Completed    0h  0m  0s
+      80 Percent Completed    0h  0m  1s
       90 Percent Completed    0h  0m  1s
      100 Percent Completed    0h  0m  1s
 
@@ -6934,11 +6948,11 @@ Total Thickness (m) =    1.000
      30 Percent Completed    0h  0m  0s
      40 Percent Completed    0h  0m  0s
      50 Percent Completed    0h  0m  0s
-     60 Percent Completed    0h  0m  0s
-     70 Percent Completed    0h  0m  0s
-     80 Percent Completed    0h  0m  0s
-     90 Percent Completed    0h  0m  0s
-    100 Percent Completed    0h  0m  0s
+     60 Percent Completed    0h  0m  1s
+     70 Percent Completed    0h  0m  3s
+     80 Percent Completed    0h  0m  4s
+     90 Percent Completed    0h  0m  5s
+    100 Percent Completed    0h  0m  7s
 
  ============= CALCULATION PROGRESS =============
 
@@ -6964,13 +6978,15 @@ Total Thickness (m) =    1.000
    Timing results for study area full3d
    Timing results for study area full3d
 
-   Searching for Paths:   0h 10m 0s
+   Searching for Paths:   0h 10m 11s
 
    Constructing 3D Paths and Evaluating Fields:   0h 0m 1s
 
-   Construct 3D Edges:   0h 0m 5s
+   Combining Fields and Writing Output:   0h 0m 8s
 
-   Study Area Run Time:   0h 10m 9s
+   Construct 3D Edges:   0h 0m 7s
+
+   Study Area Run Time:   0h 10m 30s
 
  ============= CALCULATION PROGRESS =============
 

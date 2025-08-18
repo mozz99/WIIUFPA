@@ -52,9 +52,19 @@ def txt_to_csv(input_file, output_file, is_full3d=False):
 
     if is_full3d:
         data.columns = ['ID', 'X', 'Y', 'Z', 'Distance (m)', 'Power (dBm)', 'Phase']
+        data = data.astype({
+            'Distance (m)': int,
+            'Power (dBm)': float,
+            'Phase': float
+        })
     else:
         # Ajuste as colunas conforme o formato do seu outro arquivo simulado
         data.columns = ['ID', 'X', 'Y', 'Z', 'Distance (m)', 'Pl']
+        data = data.astype({
+            'Distance (m)': int,
+            'Power (dBm)': float,
+            'Phase': float
+        })
 
     data.to_csv(output_file, index=False)
     print(f"Arquivo '{output_file}' foi salvo com sucesso!")
